@@ -121,6 +121,7 @@ audio {
     transform-origin: top center;
     transform: rotateX(0deg);
     transition: all 1s ease, z-index 1s ease;
+    pointer-events: auto;
 }
 
 #top.active {
@@ -145,6 +146,7 @@ audio {
     text-shadow: 0px 2px #000;;
     position: relative;
     z-index: 4;
+    pointer-events: auto;
 }
 
 #cover.active {
@@ -160,6 +162,8 @@ audio {
     background-color: rgb(216, 0, 0);
     position: relative;
     z-index: 999;
+    pointer-events: auto;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px){
