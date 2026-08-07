@@ -167,32 +167,8 @@ audio {
 }
 
 @media screen and (max-width: 768px){
-    #top {
-        width: 70px;
-        border-bottom: 80px solid pink;
-        border-left: 120px solid transparent;
-        border-right: 120px solid transparent;
-    }
-
-    #cover {
-        width: 70px;
-        border-left: 120px solid rgb(226, 152, 164);
-        border-right: 120px solid rgb(226, 152, 164);
-        border-bottom: 100px solid rgb(226, 152, 164);
-        border-top: 90px solid transparent;
-    }
-
-    #isi-surat {
-        width: 250px;
-        height: 250px;
-        left: 30px;
-    }
-
-    #isi-surat.active {
-        transform: translateY(-110px);
-    }
-
-    #teks #tombol2 {
-        width: 160px;
+    #kotak {
+        transform: scale(0.82);
+        transform-origin: center center;
     }
 }
