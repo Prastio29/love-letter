@@ -4,6 +4,7 @@ const isiSurat = document.getElementById('isi-surat')
 const btn = document.getElementById('tombol')
 const atas = document.getElementById('top')
 const cover = document.getElementById('cover')
+const btn2 = document.getElementById('tombol2')
 
 btn.addEventListener('click', () => {
     konten.classList.toggle('active')
