@@ -183,7 +183,7 @@ audio {
     #isi-surat.active {
         opacity: 1;
         bottom: 0;
-        transform: translateY(-110px); /* Disesuaikan tinggi naiknya */
+        transform: translateY(-80px); /* Disesuaikan tinggi naiknya */
         z-index: 3;
     }
     
