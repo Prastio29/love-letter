@@ -168,7 +168,7 @@ audio {
 
 @media screen and (max-width: 768px){
     #kotak {
-        transform: scale(0.82);
+        transform: scale(2);
         transform-origin: center center;
     }
 
