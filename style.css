@@ -167,17 +167,13 @@ audio {
 }
 
 @media screen and (max-width: 768px){
-    #konten {
-        overflow: hidden;
-    }
-    
     #isi-surat {
         width: 240px; 
         height: 320px;
         border: 1px solid black;
         position: absolute;
         left: 40px;
-        bottom: 50px;
+        bottom: 45px;
         z-index: 1;
         opacity: 0;
         transition: all 1s ease 1s;
@@ -186,7 +182,7 @@ audio {
 
     #isi-surat.active {
         opacity: 1;
-        bottom: 50px;
+        bottom: 45px;
         transform: translateY(-110px);
         z-index: 3;
     }
